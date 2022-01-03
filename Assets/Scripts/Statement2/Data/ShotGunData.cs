@@ -1,3 +1,4 @@
+using model;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,4 +14,8 @@ public class ShotGunData : WeaponData
 
     public int NumberBarrel { get => numberBarrel; set => numberBarrel = value; }
     public string BarrelType { get => barrelType; set => barrelType = value; }
+    /*public override void setWeapon()
+    {
+        this.Weapon1 = new Weapon(Id, ItemName, FireRate, MagazineSize, Maxammo, ammos);
+    }*/
 }

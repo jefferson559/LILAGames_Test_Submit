@@ -33,9 +33,9 @@ public abstract class WeaponData : ItemData
     [SerializeField]
     private int order;
     [SerializeField]
-    protected List<AmmoData> listamo;
-    protected List<Ammo> ammos;
-    public Weapon Weapon1 { set; get; }
+    private List<AmmoData> listamo;
+    // protected List<Ammo> ammos;
+    // public Weapon Weapon1 { set; get; }
 
     public double FireRate { get => fireRate; set => fireRate = value; }
     public double MagazineSize { get => magazineSize; set => magazineSize = value; }
@@ -43,17 +43,18 @@ public abstract class WeaponData : ItemData
     public float Shotrange { get => shotrange; set => shotrange = value; }
     public bool IsEquiped { get => isEquiped; set => isEquiped = value; }
     public int Order { get => order; set => order = value; }
+    public  List<AmmoData> ListAmo { get => listamo; set => listamo = value; }
 
-    public  void  setAmmoWeapon()
-    {
-        ammos = new List<Ammo>();
-        foreach(var item in listamo)
-        {
-            Ammo  ammo = new Ammo (item.Mark,item.Projectiletype,item.Ogivetype,item.Moventspeed);
-            ammos.Add(ammo);
-        }
-    }
-    public virtual void  setWeapon(){ }
+    /* public  void  setAmmoWeapon()
+     {
+         ammos = new List<Ammo>();
+         foreach(var item in listamo)
+         {
+             Ammo  ammo = new Ammo (item.Mark,item.Projectiletype,item.Ogivetype,item.Moventspeed);
+             ammos.Add(ammo);
+         }
+     }*/
+    //public virtual void  setWeapon(){ }
     /*public WeaponType weaponT;*/
 
 }

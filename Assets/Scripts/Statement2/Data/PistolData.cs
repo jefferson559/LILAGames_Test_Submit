@@ -17,8 +17,8 @@ public class PistolData : WeaponData
     private PistolType pistolType;
 
     public PistolType PistolType1 { get => pistolType; set => pistolType = value; }
-    public override void setWeapon()
+   /* public override void setWeapon()
     {      
         this.Weapon1=  new Pistol(Id, pistolType, ItemName, FireRate, MagazineSize, Maxammo, ammos);
-    }
+    }*/
 }

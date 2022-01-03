@@ -17,7 +17,7 @@ public class ControllerInventory : MonoBehaviour
    
     void Start()
     { 
-      //  dicPlayerInventory.Add(playerInventory.ContainerL,)
+      //  dicPlayerInventory.Add(gameInventory.ContainerL,)
     }
 
     // Update is called once per frame

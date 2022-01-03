@@ -12,19 +12,13 @@ public class TileData : ScriptableObject
 
     public TileBase[] tiles;
 
-    public float tileNumber;
-
-    public Text tileText;
-
-    public List<TileValues> tileList;
-
-}
-
-public class TileValues
-{
     public int tileNumber;
 
+   
+
 }
+
+
         
     
 

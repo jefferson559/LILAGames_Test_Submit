@@ -6,6 +6,7 @@ using UnityEngine.Tilemaps;
 public class TilesHolder : MonoBehaviour
 {
     private TileBase _baseTile;
+    private TileData tileData;
 
     private void Awake()
     {
@@ -14,6 +15,7 @@ public class TilesHolder : MonoBehaviour
 
     public TileBase GetBaseTile()
     {
+        
         return _baseTile;
     }
 }

@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class DefaultWeaponData : WeaponData
 {
-    public override void setWeapon()
+   /* public override void setWeapon()
     {
         this.Weapon1=new  Weapon(Id, ItemName, FireRate, MagazineSize, Maxammo, ammos);
-    }
+    }*/
 }
