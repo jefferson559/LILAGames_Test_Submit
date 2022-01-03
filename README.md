@@ -9,12 +9,12 @@ We know that the period of finishing the Test was until friday, and we deliver i
 
 *  Updated Scene Statement1a 
 
-   - Board Size can be selected on BoardData GameObject  ( it is not creating a correct number of tiles on the board yet )
+     Board Size can be selected on BoardData GameObject  ( it is not creating a correct number of tiles on the board yet )
    
   
 *  Deleted Scene Stament1
 
-  -  Due to the performance target, we deleted the scene statemnt1 where its aproach using UI GameObjects was too expensive compared using Tilemap component.
+     Due to the performance target, we deleted the scene statemnt1 where its aproach using UI GameObjects was too expensive compared using Tilemap component.
   
   
   
